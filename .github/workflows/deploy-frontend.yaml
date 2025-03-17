@@ -18,5 +18,5 @@ jobs:
           aws-region: us-east-1
       - name: Deploy to S3
         run: |
-          aws s3 cp . s3://sirghevladaws.com --recursive --exclude "*.git*" --acl public-read
+          aws s3 cp . s3://sirghevladaws.com --recursive --exclude "*.git*"
           aws cloudfront create-invalidation --distribution-id E3U84PP4FSVYTS --paths "/*"
