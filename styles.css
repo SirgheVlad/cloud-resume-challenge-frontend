@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .title {
+    color: #34495e;
+    font-style: italic;
+    margin: 5px 0;
+  }
+  
+  .contact {
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+  
+  .language-switcher {
+    margin: 10px 0;
+  }
+  
+  #greeting {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  button:hover {
+    background: #2c3e50;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  h2 {
+    color: #34495e;
+    border-bottom: 2px solid #34495e;
+    padding-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  h3 {
+    color: #7f8c8d;
+    margin-bottom: 5px;
+  }
+  
+  .details {
+    font-style: italic;
+    color: #666;
+    margin: 0 0 10px 0;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin: 10px 0 20px 20px;
+  }
+  
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .experience article, .projects article {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .visitor-count {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .dark {
+    background: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  .dark header, .dark .experience article, .dark .projects article {
+    background: #34495e;
+    border-color: #3e5c76;
+  }
+  
+  .dark h1, .dark h2, .dark h3 {
+    color: #ecf0f1;
+  }
+  
+  .dark .title, .dark .contact, .dark .details {
+    color: #bdc3c7;
+  }
+  
+  .dark a {
+    color: #3498db;
+  }
+  
+  .dark button {
+    background: #ecf0f1;
+    color: #2c3e50;
+  }
+  
+  .dark button:hover {
+    background: #bdc3c7;
+  }
